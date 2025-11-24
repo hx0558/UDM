@@ -1,2 +1,2 @@
 # UDM
-The code of UDM will be released after the article has been accepted!
+The code of UDM will be released once the paper is accepted!
