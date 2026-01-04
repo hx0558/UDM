@@ -1,0 +1,11 @@
+python=3.10
+numpy2.2.5
+scipy 1.15.3
+h5py3.15.1
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
+pytorch 2.5.1
+fvcore
+einops
+scikit-learn
+termcolor
+timm
