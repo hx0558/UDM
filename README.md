@@ -1,22 +1,21 @@
-<img width="11855" height="5105" alt="网络总体结构" src="https://github.com/user-attachments/assets/92b023cb-2d5c-4864-ad40-fc4df7f329f2" /><img width="11855" height="5105" alt="网络总体结构" src="https://github.com/user-attachments/assets/908f278f-c07f-4095-af8e-7ce5900f23e5" /># UDM: [Uncertainty-based Dendritic Model for Multimodal Remote Sensing Data Classification]
+# UDM: [Uncertainty-based Dendritic Model for Multimodal Remote Sensing Data Classification]
 
-<!-- 作者和期刊信息 -->
 Accepted by **IEEE Transactions on Geoscience and Remote Sensing (TGRS)**, 2026.
 
 [[Paper Link](https://ieeexplore.ieee.org/document/11320871)]
 
 🔥 🔥 🔥
-
 ## 📖 Abstract
-*[Multimodal remote sensing data is inevitably affected by noise due to atmospheric conditions, sensor limitations, and other factors. However, existing deep learning-based multimodal remote sensing classification (MRSC) methods overlook the impact of these data noise, which produces the uncertainty and decreases classification accuracy. To address this problem, this paper first explores uncertainty-based dendritic model (UDM) for MRSC, which reduces the uncertainty at single-modality feature extraction and multimodal feature fusion stages. At the single-modality feature extraction stage, dendrites, as a novel type of neurons, have been demonstrated with strong feature extraction abilities. Inspired by the dendritic structure, we first design a dendritic-based spatial-channel feature extraction (DSCE) module. Specifically, a dendritic neural layer (DNL) is designed in DSCE. The proposed DNL constructs a multi-branch fusion strategy to enhance the expressive capacity of multimodal remote sensing feature extraction, which achieves the localized subspace computation ability. Furthermore, based on the extracted features by DSCE, a dendritic uncertainty-based feature enhancement (DUFE) module is explored to reduce the uncertainty from the extracted features. DUFE exploits uncertainty estimation to adaptively refine the extracted representations, thereby improving feature robustness and discriminative power for MRSC. At the multimodal feature fusion stage, considering the feature redundancy of the different modalities, a dendritic-based uncertainty-aware fusion (DUAF) module is proposed. DUAF performs feature fusion by dynamically assigning weights based on the estimated uncertainty of each modality, thus enhancing classification performance. Experiments on benchmark datasets demonstrate that the proposed UDM outperforms current state-of-the-art methods based on Transformer, convolutional neural network, and Mamba for MRSC. The code is available at https://github.com/hx0558/UDM.]*
+> **Abstract:** *[Multimodal remote sensing data is inevitably affected by noise due to atmospheric conditions, sensor limitations, and other factors. However, existing deep learning-based multimodal remote sensing classification (MRSC) methods overlook the impact of these data noise, which produces the uncertainty and decreases classification accuracy. To address this problem, this paper first explores uncertainty-based dendritic model (UDM) for MRSC, which reduces the uncertainty at single-modality feature extraction and multimodal feature fusion stages. At the single-modality feature extraction stage, dendrites, as a novel type of neurons, have been demonstrated with strong feature extraction abilities. Inspired by the dendritic structure, we first design a dendritic-based spatial-channel feature extraction (DSCE) module. Specifically, a dendritic neural layer (DNL) is designed in DSCE. The proposed DNL constructs a multi-branch fusion strategy to enhance the expressive capacity of multimodal remote sensing feature extraction, which achieves the localized subspace computation ability. Furthermore, based on the extracted features by DSCE, a dendritic uncertainty-based feature enhancement (DUFE) module is explored to reduce the uncertainty from the extracted features. DUFE exploits uncertainty estimation to adaptively refine the extracted representations, thereby improving feature robustness and discriminative power for MRSC. At the multimodal feature fusion stage, considering the feature redundancy of the different modalities, a dendritic-based uncertainty-aware fusion (DUAF) module is proposed. DUAF performs feature fusion by dynamically assigning weights based on the estimated uncertainty of each modality, thus enhancing classification performance. Experiments on benchmark datasets demonstrate that the proposed UDM outperforms current state-of-the-art methods based on Transformer, convolutional neural network, and Mamba for MRSC. The code is available at https://github.com/hx0558/UDM.]*
 
-<!-- 图片区域 1 -->
-![Image 1 Description]<img width="11855" height="5105" alt="网络总体结构" src="https://github.com/user-attachments/assets/f7afe974-c7a8-4bf8-b4ea-5344d918a953" />
-**Fig. 1.** Illustration of the proposed UDM for multimodal classification. Overall structure is divided into five stages, namely data process, DSCE, DUFE, DUAF, and classification.
 
-<!-- 图片区域 2 -->
-![Image 2 Description]<img width="734" height="606" alt="树突层1" src="https://github.com/user-attachments/assets/faa0b498-72ea-4bda-8ce6-9ea4429b3222" />
-**Fig. 2.** The structure of the proposed DNL. The dendritic structure is comprised of four layers: synaptic layer, dendritic layer, membrance layer, and soma layer. $M$ denotes the number of dendritic branches.
+![overview](https://github.com/user-attachments/assets/f7afe974-c7a8-4bf8-b4ea-5344d918a953)
+
+**Fig. 1. Illustration of the proposed UDM for multimodal classification. Overall structure is divided into five stages, namely data process, DSCE, DUFE, DUAF, and classification.**
+
+![DNL](https://github.com/user-attachments/assets/faa0b498-72ea-4bda-8ce6-9ea4429b3222)
+
+**Fig. 2. The structure of the proposed DNL. The dendritic structure is comprised of four layers: synaptic layer, dendritic layer, membrance layer, and soma layer. $M$ denotes the number of dendritic branches.**
 
 ## Dependencies
 
@@ -37,6 +36,7 @@ conda activate udm
 
 # 3. Install dependencies
 pip install -r Requirements.txt
+```
 
 ## Citation
 
