@@ -46,12 +46,13 @@ If you find the code helpful in your research or work, please cite the following
 @ARTICLE{11320871,
   author={He, Xin and Han, Xiao and Zhao, Yaqin and Chen, Yushi and Zou, Limin},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Uncertainty-based Dendritic Model for Multimodal Remote Sensing Data Classification}, 
-  year={2025},
-  volume={},
+  title={Uncertainty-Based Dendritic Model for Multimodal Remote Sensing Data Classification}, 
+  year={2026},
+  volume={64},
   number={},
-  pages={1-1},
-  keywords={Feature extraction;Uncertainty;Remote sensing;Transformers;Computational modeling;Noise;Laser radar;Synthetic aperture radar;Redundancy;Data models;deep learning;multimodal remote sensing data classification},
+  pages={1-18},
+  keywords={Feature extraction;Uncertainty;Remote sensing;Transformers;Computational modeling;Noise;Laser radar;Synthetic aperture radar;Redundancy;Data models;Deep learning;multimodal remote sensing data classification},
   doi={10.1109/TGRS.2025.3649778}}
+
 
 ```
